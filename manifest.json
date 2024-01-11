@@ -1,0 +1,21 @@
+{
+    "name": "YouLoop",
+    "version": "0.1.0",
+    "description": "Loop over sections of YouTube videos which can be saved as bookmarks",
+    "host_permissions": ["https://*.youtube.com/*"],
+    "background": {
+      "service_worker": "Frontend/Background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://*.youtube.com/*"],
+        "js": ["Frontend/ContentScript.js"]
+      }
+    ],
+    "permissions": ["activeTab", "storage"],
+    "action": {
+      "default_title": "YouLoop",
+      "default_popup": "Frontend/popup.html"
+    },
+    "manifest_version": 3
+}

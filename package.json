@@ -1,0 +1,22 @@
+{
+  "name": "youloop",
+  "version": "1.0.0",
+  "description": "Allows you to select a time window using time stamps on youtube in which a video will loop within.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacruiz0/YouLoop.git"
+  },
+  "author": "Isaac Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacruiz0/YouLoop/issues"
+  },
+  "homepage": "https://github.com/isaacruiz0/YouLoop#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.256"
+  }
+}
